@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@headlessui/react": "^1.7.14",
-    "axios": "^1.4.0",
-    "cookie-parser": "^1.4.6",
-    "heroicons": "^2.0.18"
-  }
-}
