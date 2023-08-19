@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  @apply text-black;
+}
+
+.hero {
+  background-image: url("./assets/login-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+.splide__arrow svg {
+  fill: #5a67d8 !important;
+  height: 2.5em;
+  transition: fill 0.2s linear;
+  width: 2.5em;
+}
+.splide__pagination__page.is-active {
+  z-index: 1;
+  background: #5a67d8 !important;
+}
+.splide__pagination__page:hover {
+  background: #5a67d8 !important;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.bg-image {
+  background-image: url("./assets/login-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  mix-blend-mode: overlay;
+}
